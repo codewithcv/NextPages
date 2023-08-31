@@ -1,16 +1,16 @@
 import Head from "next/head";
 
-function HomePage() {
+function AboutPage() {
   return (
     <>
       <Head>
-        <title>Home - My Blog</title>
+        <title>ABout - My Blog</title>
       </Head>
       <main>
-        <h1>My Blog</h1>
+        <h1>About Page</h1>
       </main>
     </>
   );
 }
 
-export default HomePage;
+export default AboutPage;
